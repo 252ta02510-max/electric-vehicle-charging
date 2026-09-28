@@ -1,0 +1,14 @@
+import java.util.*;
+
+class electricvehiclecharging {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+
+        double battery = s.nextDouble();
+        double power = s.nextDouble();
+
+        double time = battery / power;
+
+        System.out.println("Charging Time = " + time + " hours");
+    }
+}
